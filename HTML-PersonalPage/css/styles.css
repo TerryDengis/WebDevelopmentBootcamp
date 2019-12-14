@@ -1,0 +1,36 @@
+/*==============Tag Selectors==============*/
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  background-color: white;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 7px;
+  width: 5%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #66bfbf;
+}
+
+h2 {
+  color: #66bfbf;
+}
+
+/*==============Class Selectors==============*/
+.classname {
+  color: blue;
+}
+
+/*==============ID Selectors==============*/
+#idname {
+  color: red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Contact me</h1>
+      <form
+        action="mailto:terry.dengis@icloud.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="">First Name: </label>
+        <input type="text" name="firstname" value="" /><br />
+        <label for="">Last Name: </label>
+        <input type="text" name="lastname" value="" /><br />
+        <label for="">Email: </label>
+        <input type="email" name="email" value="" /><br />
+        <label for="">Phone: </label>
+        <input type="phone" name="phone" value="" /><br />
+        <label for="">Respond by: </label>
+        <input type="date" name="responsedate" value="" /><br />
+        <label for="">Contact by: </label><br />
+        <input type="radio" name="contactmethod" value="email" />eMail <br />
+        <input type="radio" name="contactmethod" value="phone" />Phone <br />
+        <input type="radio" name="contactmethod" value="text" />Text <br />
+
+        <label for="">Message: </label><br />
+        <textarea name="message" rows="8" cols="80"></textarea><br />
+        <input type="submit" name="" value="Send" />
+        <input type="reset" name="" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>
